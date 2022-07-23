@@ -1,11 +1,9 @@
-# Vue 3 + Typescript + Vite
+# Description
 
-This template should help get you started developing with Vue 3 and Typescript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This is a basic Vue 3 front end which has everything setup to hit the ground running on a new CRUD application.
 
-## Recommended IDE Setup
+Folder structure and basic framework of the application including: Services, Types, Routing, Tailwind, Authentication, PWA, etc.
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+When paired with the [MVP-Backend](https://github.com/jboullion/mvp-backend/) you will have an application with a home page, a login page, A basic admin area, the ability to create, read, update, and delete jobs.
 
-## Type Support For `.vue` Imports in TS
-
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's `.vue` type support plugin by running `Volar: Switch TS Plugin on/off` from VSCode command palette.
+This should give you a great starting place for your next prototype or MVP!
